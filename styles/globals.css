@@ -1,16 +1,28 @@
-html,
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
 body {
+  margin: 1em;
   padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: Google Sans, Noto, Roboto, Helvetica Neue, sans-serif;
+  color: #244376;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+#card {
+  margin: 3em auto;
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  border-radius: 6px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
 }
 
-* {
-  box-sizing: border-box;
+model-viewer {
+  width: 100%;
+  height: 400px;
+  background-color: #70bcd1;
+  --poster-color: #ffffff00;
 }
